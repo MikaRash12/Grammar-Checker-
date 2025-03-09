@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "grammarchecker-plxm",
+  "private_key_id": "cb99943b692091644a4a9453dd6797f6faf1c3d4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5HRY400N7+M/O\n7e/PPnykUmx6S3vbN1W+n9qTp7YAjrzkvtSGuwsrc35VGs5hvUi18Wehg6g827LE\nMPxUhUpmBXr9iNVMQsikel+lsYshnakrG+xvrOpnki+iFhCaDWwraTcuSfTXumEi\nPNy25LjbJWVmLhuV2JMwWIhmPr7wkYsvrZh8+mS47g99LgY6Km0R5HMS9ay/GSwR\nKazRxvnBNxuEj8s3w2spqWhdAfzQov4uxZsfhP3IIXMYhPT7FyAenHpfnQkGTy2r\nZL1mXm+P11Ygux+hq65eG8c5W2dQ8lNpcxeN+rFfoF2BfU4wl+ncenMjmHhtUIoH\nBTMNAVTlAgMBAAECggEAHpvBI2dHZtXW4rP0LbP63x7j4freQXquWmVLOpQGI6R2\ndmpZcOe3qpkfwAm9K2slfTQr+whuhpWbQxaIep9JlIH+erKn9kKqs4uqihbH1yif\nIsost7CDV9nTt3znhNmIU8tDfQtsiUk/q24d3r4GFPJjiFhCZm4XtGxHLYTdhKB7\n3JkPIdO2DSeTw2vb42EtRqXgW/V3LGye3Cdp9uDB6enSVZh5J48kcT9FBY9Nl/UL\nsquP1y8W5LD9ZXX7c2rGAh4xyk0ocNEqFB1UZCmZ+RqcMRvAvVKemgkmzBu6asuV\nCV/YMR3Z4HRHLQJI3D/jz0RLER6e3PoH3a/AvVy8BwKBgQDxxAF0UGMu6IgA3F0B\nIw9EbGwvIVXxaAWlJWEKuMBFpgzfnS+ykhGdB4YrRbxSAGKeaIWzKrlltsTjN/HT\nyeZR0gEHYya94T/JLROlujT1/JkCcjyLSVr5wmlY6lGzmM6+Z9rWGKjxW8TTWK8d\nY4Gke/aWYqgT1YY8dKT55PsG8wKBgQDEAzKgZCJSfBsNpdhxOQ1SxZg6c3D0E1Dr\nMqYap76Yu9xaIet7pGx1EvFHlXyc24FD5KW8iqSi7ZwPlsnYOG0SdOedWw2iVEgg\nsrp9fdX2Gn/7gBk2i23GxXI5pR9mYtJI1QTykTrb0zBSmeHKKpujXGDkIFn04pwK\nFcfi8zzaxwKBgBWwBo1flLYlh+XD3tf2RC1YKJBFxkbklPUOmFj039KfpbH9kMTN\nE6VpgmCpXc5hWHdrWusKnxz/u0PCxf/AsdePJiZ6f4QzC5zJXWTVgmC6qyMsCkBY\ncT/Mb9TZGEErKQitmlTwW19jYxGud+8D+SI/OIyfBwLYebU8pXwBTX9/AoGAPJeM\nd95cackph7+DuARd5P9l/nOfMCQkeIBQrp66IXa5ODeSFseOK2aupWVFfyuvuvAc\nd7sYB7GR85O2U5ulw/XVf2QdQ9fv8AOv+IkEsi4g7/r6UE0roy14EO/FVB4qSQ9o\nlx9j5X5USsR88sTXFdnBreN+S2AdwlRXVQXCAxMCgYEAjMOK8XAocD3lVwQhSa8D\n0xjhTexeInErXoM67+NQigtDxwSxI8XpR2NZIU5vIK4SwfIyAUFMeEi6kvaBCmkm\n0O8e4bgXgHRPhUF/AIXmgm8LomevW6u8eeia4/9XpESUanBAd10FNd/8eiGKKeqJ\nsIZEMuhcBBJfW4cl/mtZQO4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "grammarchecker@grammarchecker-plxm.iam.gserviceaccount.com",
+  "client_id": "116237136946186171848",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/grammarchecker%40grammarchecker-plxm.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

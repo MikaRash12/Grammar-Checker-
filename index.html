@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerfectText: Your Grammar Guardian</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        h3 {
+            color: #333;
+        }
+        p.original-text {
+            color: red;
+        }
+        p.corrected-text {
+            color: green;
+        }
+        p.tokens {
+            color: #666;
+        }
+        ul.ner-entities {
+            list-style-type: none;
+            padding: 0;
+        }
+        li.ner-entity {
+            margin-bottom: 5px;
+            color: blue; /* Adjust the color as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>PerfectText : Your Grammar Guardian</h1>
+
+    {% if error_message %}
+        <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+
+    <form method="post" action="/">
+        <label for="input_text">Enter your Sentences:</label><br>
+        <textarea id="input_text" name="input_text" rows="4" required></textarea><br>
+        <input type="submit" value="Check Grammar">
+    </form>
+
+    {% if original_text %}
+        <h3>Original Text:</h3>
+        <p class="original-text">{{ original_text }}</p>
+        <h3>Corrected Text:</h3>
+        <p class="corrected-text">{{ corrected_text }}</p>
+        <h3>Tokens:</h3>
+        <p class="tokens">{{ tokens|join(', ') }}</p>
+
+        {% if ner_entities %}
+            <h3>Named Entities:</h3>
+            <ul class="ner-entities">
+                {% for entity, label in ner_entities %}
+                    <li class="ner-entity">{{ entity }} ({{ label }})</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <div class="ner-container">
+            <h3>NER Corrected Text:</h3>
+            <div>{{ corrected_text_with_ner|safe }}</div>
+        </div>
+    {% endif %}
+
+    <!-- Add Dialogflow Messenger script -->
+ <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="PerfectText"
+  agent-id="9922441d-f0a8-43ce-acbc-70409d81fc55"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
